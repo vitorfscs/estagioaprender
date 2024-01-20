@@ -1,0 +1,192 @@
+*{
+    margin: 0 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cabeca{
+    background-color: blueviolet;
+    width: 100%;
+    height: 90px;
+}
+
+.formus{
+    margin-left: 29%;
+}
+
+.formus input{
+    margin-top: 25px;
+    width: 650px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.botoa{
+    background-image: url("../image/lupa.png");
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.produto{
+    margin-left: 30%;
+}
+
+
+.produto button{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.btnpopular{
+    background-image: url("../image/popular.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.btnsedan{
+    background-image: url("../image/sedan.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.btnluxo{
+    background-image: url("../image/luxo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.btncaminhonete{
+    background-image: url("../image/caminhonete.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.textomenu label{
+    margin-left: 85px;
+}
+
+.textomenu{
+    margin-left: 29%;
+}
+
+.produtinhos{
+    margin-left: 60px;
+    margin-top: 110px;
+    font-size: 25px;
+}
+
+.catalogo img{
+    width: 300px;
+    height: 200px;
+}
+
+.catalogo{
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.astra{
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.astra h2{
+ text-align: center;
+ text-decoration: none;
+}
+
+.astra p{
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.marea{
+    margin-left: 24%;
+    margin-top: -16.8%;
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.marea h2{
+    text-align: center;
+   }
+   
+.marea p{
+       text-align: center;
+   
+   }
+
+.parati{
+    margin-left: 47.4%;
+    margin-top: -16.8%;
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.parati h2{
+    text-align: center;
+}
+
+.parati p{
+    text-align: center;
+}
+
+.xr3{
+    margin-left: 70.4%;
+    margin-top: -16.8%;
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+}
+
+.xr3 h2{
+    text-align: center;
+}
+
+.xr3 p{
+    text-align: center;
+}
+
+@media screen and (max-width: 1499px) {
+    .marea{
+        margin-left: 24%;
+        margin-top: -23.4%;
+        background-color: aliceblue;
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    .parati{
+        margin-left: 47.9%;
+        margin-top: -23.3%;
+        background-color: aliceblue;
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    .xr3{
+        margin-left: 71.9%;
+        margin-top: -23.4%;
+        background-color: aliceblue;
+        width: 300px;
+        height: 300px;
+        border-radius: 15px; 
+    }
+}
